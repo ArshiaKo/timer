@@ -12,6 +12,7 @@ body {
 
 
 
+
   /* W3C */
   background: linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
 
@@ -101,6 +102,18 @@ h1, h2 {
   text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
 /* mobile phone */
 @media screen and (max-device-width: 480px) {
   body {
@@ -125,4 +138,5 @@ h1, h2 {
   #counter {
     top: 380px;
   }
+  a { color: inherit; } 
 }
